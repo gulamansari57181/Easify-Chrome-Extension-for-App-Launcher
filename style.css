@@ -1,0 +1,84 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    min-height: 180px;
+    width: 385px;
+}
+
+section {
+    color: #ffff;
+    background-image: linear-gradient(90deg, hsl(210, 75%, 2%) 0%, rgba(0, 0, 0, 0.795) 74%);
+}
+
+
+}
+h1 {
+    font-family: 'Menlo', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffff;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+img {
+    border: 0.2px solid #ffff;
+    border-radius: 50%;
+    width: 19px;
+}
+.header {
+    align-items: center;
+    border-bottom: .5px solid #ffff;
+    margin-left: 5px;
+}
+.content {
+    padding: 20px;
+    margin-left: 10px;
+}
+.version {
+    font-style: italic;
+}
+.logo {
+    margin-top: 1px;
+}
+b {
+    color: #ffff;
+}
+.icons {
+    border-top: 2px solid #ffff;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+.flex {
+    width: 200px;
+    opacity: .9;
+    transition: opacity .2s ease-in-out;
+}
+.flex .fa {
+    font-size: 42px;
+    color: #ffff;
+}
+#fa1:hover {
+    color: #d1934dfa;
+}
+#fa2:hover {
+    color: #F70000;
+}
+#fa3:hover {
+    color: #0A66C2;
+}
+#fa4:hover {
+    color: #066ce0;
+}
+#fa5:hover {
+    color: #18dbf5
+}
