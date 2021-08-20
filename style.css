@@ -1,96 +1,103 @@
 html,
 body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    min-height: 180px;
-    width: 385px;
-    background-image: linear-gradient(315deg, hsl(210, 75%, 2%) 0%, rgba(0, 0, 0, 0.5) 74%);
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  min-height: 180px;
+  width: 385px;
+  background-image: linear-gradient(
+    315deg,
+    hsl(210, 75%, 2%) 0%,
+    rgba(0, 0, 0, 0.5) 74%
+  );
 }
 
 h1 {
-    font-family: 'Menlo', monospace;
-    font-size: 20px;
-    font-weight: 400;
-    color: #ffff;
-    margin: 0;
+  font-family: "Menlo", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffff;
+  margin: 0;
 }
 
 a:link,
 a:visited {
-    text-decoration: none;
-    outline: 0;
-    cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
 }
 
 img {
-    border: 0.2px solid #ffff;
-    border-radius: 50%;
-    width: 19px;
+  border: 0.2px solid #ffff;
+  border-radius: 50%;
+  width: 19px;
 }
 
 .header {
-    align-items: center;
-    border-bottom: .5px solid #ffff;
-    margin-left: 5px;
+  align-items: center;
+  border-bottom: 0.5px solid #ffff;
+  margin-left: 5px;
 }
 
 .content {
-    padding: 20px;
-    margin-left: 10px;
+  padding: 20px;
+  margin-left: 10px;
 }
 
 .version {
-    font-style: italic;
+  font-style: italic;
 }
 
 .logo {
-    vertical-align: text-bottom;
-    margin-right: 12px;
+  vertical-align: text-bottom;
+  margin-right: 12px;
 }
 
 b {
-    color: #ffff;
+  color: #ffff;
 }
 
 .icons {
-    border-top: 2px solid #ffff;
+  border-top: 2px solid #ffff;
 }
 
 .flex-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 22px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 22px;
 }
 
 .flex {
-    width: 125px;
-    opacity: 1;
-    transition: opacity .2s ease-in-out;
+  width: 125px;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .flex .fa {
-    font-size: 42px;
-    color: #ffff;
+  font-size: 42px;
+  color: #ffff;
 }
 
 #fa1:hover {
-    color: #ec4319;
+  color: #ec4319;
 }
 
 #fa2:hover {
-    color: #F70000;
+  color: #f70000;
 }
 
 #fa3:hover {
-    color: #0A66C2;
+  color: #0a66c2;
 }
 
 #fa4:hover {
-    color: #066ce0;
+  color: #066ce0;
 }
 
 #fa5:hover {
-    color: #0bb127;
+  color: #0bb127;
+}
+#fa6:hover {
+  color: #e0590a;
 }
